@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<!--head tag consist of metadata-->
+<!--meta-data is a set of data that describes and gives information about other data.-->
+
+
+<body>
+    <H1>Web Development</H1>
+   
+
+
+    <!-- Tags are used to provide structure, meaning and for formating -->
+
+
+<!-- <a> is used to create hyperlinks (hyperlinks are images,links,etc which on clicked redirect to other page) -->
+<a href="https://i.pinimg.com/736x/a1/8d/c3/a18dc3b838a9f9daa9eca8ff3d4d7f3a.jpg">aesthetic photo</a>
+<br>
+<a href="mailto: xxharshvardhanxx@gmail.com">Mail</a>
+
+<!-- Table -->
+
+<!-- we can use short cut to create table that is table>(tr>td*3)*3 -->
+
+<table>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+
+<!-- emmet is a toolkit that helps developers write large code in few lines -->
+
+<!-- to create seperate tags we use +  --> 
+<!-- p+article+section -->
+
+<p></p>
+<article></article>
+<section></section>
+
+<!-- to create tags within ie nesting we use > -->
+<!-- p>ul>li*3 -->
+
+<p>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+</p>
+
+<!-- or -->
+
+<!-- section>p*3 -->
+<section>
+    <p></p>
+    <p></p>
+    <p></p>
+</section>
+
+
+<!-- id is used to identity a element uniquely  -->
+<!-- we use # to create a id  -->
+<!-- we use p#id will create paragraph in which its id is ID  -->   <p id="ID"></p>
+<!-- we use p.CLASS to create a paragraph whoes class is CLASS -->  <p class="CLASS"></p>
+<!-- to create multiple class we can use p.lion.cat.dog --> <p class="lion cat dog"></p>
+
+<!-- <div></div> is used as a container or to wrap a group of code or a section in one -->
+<div class="container">
+    <section>
+        <ul>
+            <li>
+                <p></p> 
+                <p></p>
+                <p></p>
+            </li>
+            <li>
+                <p></p>
+                <p></p>
+                <p></p>
+            </li>
+            <li>
+                <p></p>
+                <p></p>
+                <p></p>
+            </li>
+        </ul>
+    </section>
+</div>
+
+<!-- BOlD and INLINE -->
+<!-- bold tags are those which take up the whole area on the screen in that row irrespect of what the amount of contnet is -->
+<!-- inorder tags are the tags that only take up the area of content only -->
+
+<!-- ex -->
+
+<div style="background-color: aqua;"><p>This is a bold tag</p></div>
+<span style="background-color: red;">This is a Inorder tag</span>
+
+<p>display</p>
+<p>inline</p>
+
+<P style="display: inline">display</P>
+<p style="display: inline">inline</p>
+
+<br>
+<br>
+
+
+<!-- TABLE -->
+
+
+
+<table border="1">
+    <thead>
+        <th>Student ID</th>
+        <th>Student Name</th>
+        <th>Age</th>
+    </thead>
+    
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Harsh</td>
+            <td rowspan="3">19</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Vardhan</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Upadhyay</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<Table border="1">
+    <thead>
+        <th>columu 1</th>
+        <th>columu 2</th>
+        <th>columu 3</th>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td rowspan="2">row 1 cell 1</td>
+            <td>row 1 cell 2</td>
+            <td>row 1 cell 3</td>
+        </tr>
+        <tr>
+            <td>row 2 cell 2</td>
+            <td>row 2 cell 3</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">row 2 cell 1</td>
+        </tr>
+    </tbody>
+</Table>
+
+<br>
+<br>
+
+<!-- FORMS -->
+
+<fieldset>
+    <legend>Full coding Full paise</legend>
+    <form>
+        <label for="Email">Email:</label>
+        <input type="" id="Email" placeholder="abc@gmail.com">
+        <br>
+        <br>
+        <label for="Password">Password:</label>
+        <input type="" id="Password" placeholder=".........">
+        <br>
+        <br>
+        <label for="Datepicker">DOB</label>
+        <input type="date" id="Datepicker">
+        <br>
+        <br>
+        <input type="submit" value="submit">  
+    </form>
+</fieldset>
+
+<Br></Br>
+
+<!-- We can use select mulitple to select more than one options  -->
+
+<label for="dropdown">Drop Down</label>
+<select multiple name="Harsh ke placement" id="dropdown">
+<option value="Apple">Apple</option>
+<option value="Microsoft">Microsoft</option>
+<option value="Amazon">Amazon</option>
+<option value="Meta">Meta</option>
+</select>
+
+<br>
+<br>
+
+<button>Placement done</button>
+
+<br>
+<br>
+
+<textarea name="back balance" id="Cash" cols="30" rows="10">10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</textarea>
+
+<!-- Input tag ke saath bawal -->
+<br>
+<br>
+
+<form action="">
+
+    <input type="text">
+</form>
+
+<br>
+<br>
+<!-- Button -->
+
+<form action="">
+    <label for="Button"></label>
+    <input type="submit" name="Button" id="Button">
+
+</form>
+<br><br>
+
+<!-- radio button -->
+
+<form action="">
+    <label for="radiobutton">radio button bana diya phenchod</label>
+    <input type="radio" name="radio" id="radiobutton">
+
+    <label for="radiobutton1">radio button bana diya phenchod</label>
+    <input type="radio" name="radio" id="radiobutton1">
+
+    <label for="radiobutton2">radio button bana diya phenchod</label>
+    <input type="radio" name="radio" id="radiobutton2">
+</form>
+
+<br>
+<br>
+
+<form action="">
+    <label for="file">Upload file</label>
+    <input type="file" id="file">
+</form>
+
+<form action="">
+    <input type="image">
+</form>
+
+<div>
+    <h1>Complex Form</h1>
+    <fieldset>
+        <legend>
+            personal Information
+        </legend>
+        <label for="Name">Name</label>
+        <input type="text" id="Name">
+
+        <label for="Email">Email</label>
+        <input type="text" id="Email">
+
+        <label for="number">Phone</label>
+        <input type="number" id="number">
+
+        <label for="date">Date of Birth</label>
+        <input type="date" id="date">
+
+        <span>Gender:</span>
+
+
+        <input type="radio" name="radio" id="button1">
+        <label for="button1">Male</label>
+
+        <input type="radio" name="radio" id="button2">
+        <label for="button2">Female</label>
+
+        <select name="country" id="state">
+            <option value="india">india</option>
+            <option value="us">US</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Address</legend>
+        <label for="Street">Street</label>
+        <input type="text" name="Street" id="Street">
+
+        <label for="city">City</label>
+        <input type="text" name="City" id="city">
+
+        <label for="State">State</label>
+        <input type="text" name="state" id="State">
+
+        <label for="pincode">Pincode</label>
+        <input type="number" name="pincode" id="pincode">
+
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Other information</legend>
+        <label for="comment">Comment</label>
+        <textarea name="com" id="comment" cols="80" rows="20"></textarea>
+        <br><br>
+
+
+        <input type="checkbox" id="agree">
+        <label for="agree">I agree to the terms of the service</label>
+    </fieldset>
+
+    <button>Submit</button>
+</div>
+
+
+
+
+
+
+
+<br\><br>
+
+<!-- Media project -->
+<img src="IMG_1691.JPG" alt="smokey Duck" height="250" width="200" loading="lazy">
+<br>
+<br>
+<video src="IMG_3929.MOV " height="300" controls></video>
+<br><br>
+<iframe src="https://www.youtube.com/embed?v=fb4rgYbi84c&list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&index=11" height="350" width="500"></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26336.174032841096!2d80.14207884206665!3d12.981237246749581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525e1f5da86397%3A0x21092f216ee26e47!2sChennai%20International%20Airport!5e0!3m2!1sen!2sin!4v1693108326104!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
